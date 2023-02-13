@@ -1,0 +1,39 @@
+Scrum 2 Agenda and Minutes
+Started Scrum at 11:22 am on the 22nd of June
+
+Decided to add the backend aspect to this sprint
+
+Our Agenda for this Sprint:
+Checkout Page
+Login Page
+Manager Menu
+Setup
+Styling
+Backend
+
+End of the Day Agenda: 
+Finish checkout HTML Skeleton
+Create the html "server" 
+Finish shared CSS styling
+Start the implementations for all buttons created yesterday (being the checkout buttons)
+Create items endpoint
+
+Backlog: 
+- Finish login HTML Skeleton
+- Finish checkout HTML Skeleton
+- Finish Manager Menu HTML Skeleton
+- Create the html "server"
+Manager Menu
+- Create and Implement manager logout button (5 minutes) 
+- Create and Implement the manager inventory management button (10 - 20 minutes) 
+- Create and Implement manager checkout page button (5 minutes) 
+- Create and Implement manager Receipt button (10 minutes) 
+- Create and Implement manager Order Button (5 minutes) 
+- Create and Implement Manager Reports Button (20 minutes) 
+Login Menu
+- Create and Implement Login Username Field (5 minutes) 
+- Create and Implement Login Password Field (5 minutes) 
+- Create and Implement Login Register and Enter Button (5 minutes) 
+Checkout Page
+- Create and Implement Checkout Button on Checkout Page (5 minutes) 
+- Create and Implement All Text Fields on Checkout Page (15 minutes) 

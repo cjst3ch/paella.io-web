@@ -1,0 +1,17 @@
+
+
+#delete-button {
+    visibility: hidden;
+}
+
+#update-button {
+    visibility: hidden;
+}
+
+#receipts-body tr:nth-child(2n-1) {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+#receipts-body tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.25);
+}

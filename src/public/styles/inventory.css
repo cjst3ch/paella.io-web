@@ -1,0 +1,18 @@
+.category-menu {
+    font-size: 20pt;
+    background-color: #333;
+    border: 2px solid #555;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.category-menu button:hover {
+    background-color: #444;
+}
+
+#inventory-body tr:nth-child(2n-1) {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+#inventory-body tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.25);
+}

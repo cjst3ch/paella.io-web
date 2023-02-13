@@ -1,0 +1,180 @@
+/* Base color theme variables */
+body {
+    --red: #db0030;
+    --maroon: #AB2F2B;
+    --teal: #007c98;
+    --mid-teal: #005b6f;
+    --dark-teal: #013845;
+    --blue: #004d98;
+    --mid-blue: #003f7f;
+    --navy: #0C3161;
+    --green: #009808;
+    --dark-green: #006e05;
+    --yellow: #FED614;
+    --gold: #D6A908;
+    --dark: #181818;
+    --bkg: #0e1318;
+    --light-bkg: #1e2933;
+}
+
+/* Body styling */
+body {
+    background-color: var(--bkg);
+    color: white;
+}
+
+body.colorblind {
+    --red: #464646;
+    --maroon: #535353;
+    --blue: #3e3e3e;
+    --navy: #2b2b2b;
+    --green: #5a5a5a;
+    --dark-green: #414141;
+    --yellow: #cccccc;
+    --gold: #a4a4a4;
+    --dark: #181818;
+    --bkg: #121212;
+}
+
+@font-face {
+    font-family: 'open-dyslexic';
+    src: url("/fonts/OpenDyslexic-Regular.otf") format("opentype");
+}
+
+body.dyslexic :not(i) {
+	font-family: 'open-dyslexic' !important;
+} 
+
+#order-nav{
+    margin-bottom: 30px;
+}
+
+/* #footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: white;
+} */
+
+.navbar.bg-info {
+    background-color: var(--blue) !important;
+}
+
+.navbar-brand, h1, h2, h5, h6, .btn {
+    font-family: "Staatliches";
+}
+
+.navbar-brand {
+    font-size: 22pt;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.btn-delete {
+    background-color: var(--red);
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: none;  
+}
+
+.btn-delete:hover {
+    background-color: #a50044;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn-update {
+    background-color: var(--blue);
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: none;  
+}
+
+.btn-update:hover {
+    background-color: var(--navy);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn-submit {
+    background-color: var(--green);
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: none;  
+}
+
+.btn-submit:hover {
+    background-color: var(--dark-green);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn-radio {
+    background-color: var(--dark-teal);
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: none;  
+}
+
+.btn-radio:hover {
+    background-color: var(--mid-teal);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn-radio.active {
+    background-color: var(--teal);
+}
+
+thead.thead-darker {
+    background-color: #212529;
+}
+
+thead.thead-darker td { 
+    border-color: #2b3035 !important;
+}
+
+.color-preview {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 4.8px;
+    background-color: var(--preview);
+}
+
+/* tabs styling */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    border-color: var(--dark);
+    border-bottom-color: transparent;
+    background-color:var(--navy);
+    color: #5a8dbf;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: var(--dark);
+    border-bottom-color: transparent;
+    background-color: var(--blue);
+    color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    border-color: var(--dark);
+    background-color: var(--mid-blue);
+    color: white;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs {
+    border-bottom-color: transparent;
+}

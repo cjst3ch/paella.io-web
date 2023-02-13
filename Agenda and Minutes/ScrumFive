@@ -1,0 +1,47 @@
+Scrum 5 Agenda and Minutes
+Started Scrum at 9:36 pm on the 29th of June
+
+Finish the project
+
+Our Agenda for this Sprint:
+Reports Page
+Orders Page
+Receipts Page
+Inventory Page
+APIs
+
+What did we do before:
+Connected items and receipts to database
+Setup the new db code on the server
+Connected checkout to the API
+Auto Populated Items on the Inventory Management Page
+Finish the bootstrap layout of the Receipts Page, Order Page, and Inventory Management Page
+Connected orders to the database
+We updated the theme consistency
+Created and finished the navbar
+Worked on the receipts and orders page
+Logo creation
+Stylized and populated the tables
+
+End of the Day Agenda: 
+Finalize the orders and receipts tables
+Make the inventory table editable
+Reports page needs to be finished
+Connect reports to backend
+Create page buffering for the receipts page
+Update theme consistency
+
+Backlog: 
+- Use bootstrap to layout Reports Page (10 min)
+- Create and Implement Date Ranges on Reports Page (15 minutes)
+- Connect login form to OAuth (40 min)
+- Setup Google Translate Developer Account (5 min)
+- Setup Google OAuth Developer Account (5 min)
+- Add dyslexic option (10 min)
+- Connect Google Translate to on Page Text (20 min)
+- Add color blind option (10 min)
+- Associate employee ID's with OAuth Account (20 min)
+- Setup Fuzzy Search API developer account (5 min)
+- Create SKU search control (15 min)
+- Connect SKU search control to search bar (20 min)
+- Create and implement notification labels on all pages (10 minutes)

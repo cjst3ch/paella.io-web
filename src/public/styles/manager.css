@@ -1,0 +1,59 @@
+#title-row {
+    margin-top: 20px;
+}
+
+#menu-row {
+    margin-top: 20px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* .button {
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-top: 27.5%;
+    padding-bottom: 52.5%;
+    background-color: var(--yellow);
+    border-color: var(--red) !important;
+    color: var(--red);
+} */
+
+.button {
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-top: 27.5%;
+    padding-bottom: 52.5%;
+    background-color: var(--red);
+    border-color: var(--yellow) !important;
+    color: var(--yellow);
+}
+
+/* .button:hover {
+    background-color: var(--gold);
+    color: var(--maroon)
+} */
+
+.button:hover {
+    background-color: var(--maroon);
+    color: var(--gold)
+}
+
+.manager-font {
+    font-size: 80px;
+}

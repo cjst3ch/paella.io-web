@@ -1,0 +1,123 @@
+body {
+    --red: #db0030;
+    --bc-maroon: #AB2F2B;
+    --blue: #004d98;
+    --light-blue: #73b9ff;
+    --green: #009808;
+    --yellow: #FED614;
+    --bc-gold: #D6A908;
+    --dark: #181818;
+}
+
+#cash-card-group {
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+}
+
+tr, td {
+    max-height: 10px;
+    height: 10px;
+}
+
+.btn-lg {
+    font-size: 24pt;
+}
+
+.input-group-lg > * {
+    font-size: 24pt;
+}
+
+.btn-success {
+    background-color: var(--red);
+    outline: none;
+    border: none;    
+}
+
+#item-btns .btn {
+    font-family: "Staatliches";
+    font-size: 24pt;
+    height: 100%;
+    max-height: 12vh;
+}
+
+#item-btns .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#item-btns .btn {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#item-btns .btn-info {
+    background-color: #303030;
+    outline: none;
+    border: none;   
+}
+
+#cash-card-group .btn {
+    color: var(--bc-gold);
+    border: none;
+}
+
+#cash-card-group .btn-primary {
+    background-color: var(--gold);
+    color: white; 
+    border: none;
+}
+
+.center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-marquee, .total-marquee {
+    font-size: 18pt;
+    font-family: "Rubik";
+    font-weight: 400;
+    flex-direction: column;
+    /* background-color: rgb(255, 255, 131); */
+    border-radius: 4.8px;
+    border: 1px solid rgb(206, 212, 218);
+}
+
+.item-marquee-title {
+    font-weight: 600;
+}
+
+.item-marquee {
+    border-color: var(--light-blue);
+    border-width: 1px;
+    color: var(--light-blue);
+}
+
+.total-marquee {
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+#checkout-body tr:nth-child(2n-1) {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+#checkout-body tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#checkout-total {
+    margin-bottom: 0;
+}
+
+.btn i {
+    font-size: 18pt;
+}
+
+.item-marquee-err {
+    color: var(--red);
+}
+
+#checkout-container {
+    background-color: #3E444A;
+}

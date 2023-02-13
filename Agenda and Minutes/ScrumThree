@@ -1,0 +1,43 @@
+Scrum 3 Agenda and Minutes
+Started Scrum at 3:43 pm on the 27th of June
+
+Deleted the cheat sheet from this sprint
+
+Our Agenda for this Sprint:
+Orders Page
+Receipts Page
+Inventory Page
+Backend
+
+End of the Day Agenda: 
+Inventory Skeleton
+Implement Checkout Redesign
+Complete Layouts for Orders Page
+Complete Layout for Receipts Page
+Complete Layout for Inventory Page
+Redesign Manager Menu
+Implements a stronger Backend
+
+Backlog: 
+- Create HTML skeleton for Inventory Page (10 min)
+- Create CSS for tables {Receipt/Order/Report} (20 min)
+- Display all Orders on Order Page (5 minutes)
+- Create CSS for side menus {Navigation/Cheat Sheet} (20 min)
+- Display all Inventory on Inventory Page (10 minutes)
+- Use bootstrap to layout Reports Page (10 min)
+- Display Items for Inventory (20 minutes)
+- Use bootstrap to layout Receipts Page (10 min)
+- Display all Receipts on Receipts Page (10 minutes)
+- Create and Implement New Order on Orders Page (10 minutes)
+- Create and Implement Delete Order on Orders Page (10 minutes)
+- Create and Implement Delete Item on Inventory Management Page (10 minutes)
+- Create and Implement Date Ranges on Reports Page (15 minutes)
+- Create and Implement a new Item on Inventory Management Page (10 minutes)
+- Use bootstrap to layout Inventory Page (10 min)
+- Use bootstrap to layout Orders Page (10 min)
+- Create HTML skeleton for Reports Page (10 min)
+- Create HTML skeleton for Receipts Page (10 min)
+- Create HTML skeleton for Orders Page (10 min)
+- Create and Implement Checkout Button on Checkout Page (5 minutes)
+- Port SQL queries over to backend
+- Create checkout endpoint in backend
